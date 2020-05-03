@@ -47,7 +47,7 @@ MainWindow::MainWindow(QWidget *parent) :
 
         file.close();
     }
-    else QMessageBox::critical(this,"Invalid","Not an invalid file!");
+    else QMessageBox::critical(this,"Invalid","Not a valid file!");
     ui->tableView->setModel(model);// It doesn't work
 }
 
